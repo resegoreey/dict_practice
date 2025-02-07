@@ -23,3 +23,7 @@ Updating the value of an existing key in a dictionary.
 # Iterate Through Dictionary:
 
 Iterating through a dictionary and printing each key-value pair.
+
+# Nested Dictionaries:
+
+Creating a nested dictionary (a dictionary within a dictionary) and accessing its elements.
