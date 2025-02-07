@@ -36,4 +36,25 @@ print()
 
 #Iterate through a dictionary
 for x, y in myClothes.items():
-    print(x, y)
+    print(x, ":", y)
+print()
+
+#Nested Dictionaries
+footwear = { 
+    "Sneakers" : {
+        "brand": "Nike",
+        "size": 2
+    },
+    "Sandals" : {
+        "brand" : "Adidas",
+        "size" : 5
+    },
+    "Boots" : {
+        "brand" : "Dr. Martens",
+        "size" : 3
+    }
+} 
+print(footwear)
+user_shoe = input("Which shoe would you like to view? ")
+user_choice = input("What would you like to see about the shoe? ")
+print(footwear[user_shoe][user_choice])
